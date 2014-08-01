@@ -3,18 +3,22 @@ Grumble Tour
 
 Really simple interactive tour plugin using [grumble.js](http://jamescryer.github.com/grumble.js/).
 
-'''This is the first plugin/script I've ever written open source, I know for a fact it could be made better.'''
+**This is the first plugin/script I've ever written open source, I know for a fact it could be made better.**
 
 Example
 --------
 
 Include relevant js files:
-<pre><script src="js/Bubble.js"></script></pre>
-<pre><script src="js/jquery.grumble.min.js"></script></pre>
-<pre><script src="js/grumble-tour.js"></script></pre>
+```
+<script src="js/Bubble.js"></script>
+<script src="js/jquery.grumble.min.js"></script>
+<script src="js/grumble-tour.js"></script>
+```
 
 Include image sprite:
+```
 <img src="img/bubble-sprite.png">
+```
 
 Include css file:
 ```
@@ -22,7 +26,7 @@ Include css file:
 ```
 
 Work the magic:
-<pre>
+```
 grumbleTour(grumbles = [
 	{
 		selector: '#someID', // Where we place the grumble on the page
@@ -32,7 +36,7 @@ grumbleTour(grumbles = [
 		type: 'first-grumble ' // Class of grumble, doesn't handle adding classes very well so we have to add a space after the class name
 	} 
 ]);
-</pre>
+```
 
 Contributing
 --------
